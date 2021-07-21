@@ -1,7 +1,7 @@
 # hadoop_mini_project
 
 ### Description:
-In this mini-project the goal was to write a MapReduce program that produced a report of the total number of accidents per make and year of the car. Since there was missing data in the accident records, I did this by populating the missing values from incident reports intos the accident report records. This was miltiple step process that started with sripting 4 python files(2 mappers and 2 reducers). Each file used the output of the previouse file starting with the given data. I then downloaded Hadoop's distributed file system locally onto my OS and used a bash script to run the mapreduce job.  
+In this mini-project the goal was to write a MapReduce program that produced a report of the total number of accidents per make and year of the car. Since there was missing data in the accident records, I did this by populating the missing values from incident reports into the accident report records. This was miltiple step process that started with sripting 4 python files(2 mappers and 2 reducers). Each file used the output of the previouse file starting with the given data. I then downloaded Hadoop's distributed file system locally onto my OS and used a bash script to run the mapreduce job.  
 
 ### Files
 1. ```mapper1.py``` - Maps the vin_number, make, year and incident type from every record in ```data.csv```.
