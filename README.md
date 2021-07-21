@@ -18,7 +18,7 @@ cat data.csv | python3 mapper1.py | reducer1.py | mapper2.py | reducer2.py
 ```
 
 ### How to run bash script
-1. First you will need to download Hadoop version 3.3.1 locally, along with java 1.8
+1. First you will need to download Hadoop version 3.3.1 locally, along with java 1.8, using this link ``` https://towardsdatascience.com/installing-hadoop-on-a-mac-ec01c67b003c  ```
 2. you will then start haddop by running the command ``` ./start-all.sh   ```
 3. Then you will need to make sure its running corectly using the command ``` jps ``` it should look like this
 ```
